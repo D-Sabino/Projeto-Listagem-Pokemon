@@ -13,8 +13,19 @@ body.modo-escuro{
 
 header{
     background-color: green;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    padding: 25px;
 }
 
-header .logo, header .imagem-botao{
+header .logo, 
+header .imagem-botao{ /*Estilizando classes*/
     width: 30px;
+}
+
+header #botao-alterar-tema{ /*Estilizando IDs*/
+    background: none;
+    border: none;
+    cursor: pointer;
 }
