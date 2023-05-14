@@ -86,7 +86,6 @@ main .cartao-pokemon .gif{
 }
 
 main .cartao-pokemon .tipos{
-    background-color: white;
     display: flex;
     gap: 15px
 }
@@ -98,4 +97,27 @@ main .cartao-pokemon .tipo{
 
 .grama{
     background-color: #7AC74C;
+}
+
+.veneno{
+    background-color: #DF67DDFB;
+}
+
+.fogo{
+    background-color: #EE8130;
+}
+
+.agua{
+    background-color: #6390F0;
+}
+
+.inseto{
+    background-color: #A6B91A;
+}
+
+main .descricao{
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
 }
